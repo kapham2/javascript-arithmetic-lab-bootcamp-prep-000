@@ -32,12 +32,10 @@ function dec(n)
 
 function makeInt(n)
 {
-  
   return parseInt(n,10)
 }
 
 function preserveDeciman(n)
 {
-  parseFloat(n)
-  return n
+  return parseFloat(n)
 }
